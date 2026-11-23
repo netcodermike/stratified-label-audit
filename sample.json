@@ -1,0 +1,22 @@
+{
+  "reference": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "splits": {
+    "dev": [
+      "yes",
+      "yes",
+      "yes",
+      "no"
+    ],
+    "test": [
+      "yes",
+      "yes",
+      "no",
+      "no"
+    ]
+  }
+}

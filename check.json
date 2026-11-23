@@ -1,0 +1,28 @@
+{
+  "command": [
+    "{python}",
+    "app.py"
+  ],
+  "expected": {
+    "reference": {
+      "no": 0.5,
+      "yes": 0.5
+    },
+    "splits": {
+      "dev": {
+        "distance": 0.25,
+        "shares": {
+          "no": 0.25,
+          "yes": 0.75
+        }
+      },
+      "test": {
+        "distance": 0,
+        "shares": {
+          "no": 0.5,
+          "yes": 0.5
+        }
+      }
+    }
+  }
+}
